@@ -1,0 +1,30 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 30px 50px;
+
+  .appContainer {
+    width: 80%;
+
+    .searchTools {
+      display: flex;
+      .searchInput {
+        flex: 0 1 75%;
+        display: flex;
+        align-items: center;
+        .inputBox {
+          width: 88%;
+        }
+      }
+      .seasonDropdown {
+        flex: 0 1 25%;
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+}
